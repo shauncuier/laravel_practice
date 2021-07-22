@@ -8,6 +8,6 @@ class DemoController extends Controller
 {
     function MyName($firstName, $middleName, $lastName)
     {
-        return 'First Name: ' . $firstName . '<br><br>Middle Name: ' . $middleName . '<br><br>Last Name: ' . $lastName;
+        return view('demo', ['firstkey' => $firstName, "middlekey" => $middleName, "lastkey" => $lastName]);
     }
 }
