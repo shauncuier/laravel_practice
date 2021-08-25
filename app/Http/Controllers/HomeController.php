@@ -6,11 +6,7 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    function MySelf(){
-        return "I love Programming";
-    }
-    
-    function YourSelf(){
-        return "Do you love Programming?";
+    function ShowHome(){
+        return view('home');
     }
 }
