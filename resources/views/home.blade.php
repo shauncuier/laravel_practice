@@ -1,4 +1,4 @@
-@php
+@include('subview.menu')
 
-echo date('D M - Y');
-@endphp
+
+@include('subview.footer')
