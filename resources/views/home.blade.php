@@ -1,4 +1,4 @@
 @include('subview.menu')
 
 
-@include('subview.footer')
+@include('subview.footer',['footertext'=>'All Rights Reserved By 3s-Soft'])
