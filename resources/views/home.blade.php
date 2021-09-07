@@ -1,4 +1,5 @@
-@include('subview.menu')
+@includeWhen(true,'subview.menu')
 
 
-@include('subview.footer',['footertext'=>'All Rights Reserved By 3s-Soft'])
+
+@includeUnless(false,'subview.footer')
