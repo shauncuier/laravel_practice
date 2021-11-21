@@ -5,7 +5,7 @@
     <div class="main-body container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-sm-12">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quisquam explicabo voluptas optio,
                         enim nemo corrupti, quibusdam repellat est esse velit? Incidunt expedita nihil vero aliquam
                         temporibus iusto corrupti delectus?</p>
